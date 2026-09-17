@@ -22,11 +22,6 @@
     "autoload-dev": {
         "psr-4": { "EmailReplyParser\\Tests\\": "tests/EmailReplyParser/Tests" }
     },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "2.8-dev"
-        }
-    },
     "require-dev": {
         "symfony/phpunit-bridge": "^5.0"
     }
