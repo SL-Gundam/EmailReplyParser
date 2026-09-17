@@ -1,15 +1,18 @@
 {
-    "name": "willdurand/email-reply-parser",
+    "name": "sl-gundam/emailreplyparser",
     "type": "library",
-    "description": "Port of the cool GitHub's EmailReplyParser library in PHP",
+    "description": "Fork of willdurand/EmailReplyParser with fixes/improvements for EmailReporting",
     "keywords": ["email", "reply-parser"],
     "license": "MIT",
     "authors": [
         {
             "name": "William Durand",
             "email": "will+git@drnd.me"
-        }
-    ],
+        },
+        {
+            "name": "SL-Gundam",
+            "homepage": "https://github.com/SL-Gundam"
+        }    ],
     "require": {
         "php": ">=7.4.0"
     },

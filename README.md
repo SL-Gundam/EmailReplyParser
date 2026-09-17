@@ -1,3 +1,9 @@
+## Fork Information
+
+This repository is a fork of willdurand/EmailReplyParser.
+
+The fork contains modifications required by the EmailReporting plugin for MantisBT and is maintained by SL-Gundam.
+
 # EmailReplyParser
 
 [![GitHub Actions](https://github.com/willdurand/EmailReplyParser/workflows/ci/badge.svg)](https://github.com/willdurand/EmailReplyParser/actions?query=workflow%3A%22ci%22+branch%3Amaster)
