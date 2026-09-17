@@ -12,7 +12,8 @@
         {
             "name": "SL-Gundam",
             "homepage": "https://github.com/SL-Gundam"
-        }    ],
+        }
+    ],
     "require": {
         "php": ">=7.4.0"
     },
