@@ -27,9 +27,9 @@ class EmailParser
      */
     private $signatureRegex = array(
         '/(?:^\s*--|^\s*__|^-\w|^-- $)/s', // --, __, -w
-        '(?:^Sent from (my|Mail) (?:\s*\w+){1,4}$)/s', // English: Sent from (my|Mail)
+        '/(?:^Sent (from|via) (my|Mail|the) (?:\s*\w+){1,4}$)/s', // English: Sent (from|via) (my|Mail|the)
         '/(?:^Verstuurd vanaf mijn (?:\s*\w+){1,4}$)/s', // Dutch: Verstuurd vanaf mijn
-        '(?:^={30,}$)$/s',
+        '/(?:^={30,}$)$/s',
     );
 
     /**
